@@ -6,7 +6,7 @@
 //  Copyright (c) 2012 Keen Labs. All rights reserved.
 //
 
-#import "KeenClient.h"
+#import "Internal/KeenClient.h"
 #import "KeenConstants.h"
 #import "KIOEventStore.h"
 
