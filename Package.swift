@@ -45,10 +45,11 @@ let package = Package(
                 "Library/sqlite-amalgamation/keen_io_sqlite3.c",
                 "MF_Base64Additions.m",
             ],
-            publicHeadersPath: "include",
+            publicHeadersPath: "KeenClient",
             cxxSettings: [
                 .headerSearchPath("Library/sqlite-amalgamation"),
                 .headerSearchPath("KeenClient"),
+                .headerSearchPath("KeenClient/Internal"),
             ]
         ),
     ],
