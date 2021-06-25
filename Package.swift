@@ -42,8 +42,8 @@ let package = Package(
                 "KeenClient/KeenConstants.m",
                 "KeenClient/KIOEventStore.m",
                 "KeenClient/KeenProperties.m",
+                "KeenClient/MF_Base64Additions.m",
                 "Library/sqlite-amalgamation/keen_io_sqlite3.c",
-                "MF_Base64Additions.m",
             ],
             publicHeadersPath: "KeenClient",
             cxxSettings: [
