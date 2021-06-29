@@ -232,7 +232,6 @@
 			children = (
 				0105EE8C14E9A4940048D871 /* KeenClientExample.xcodeproj */,
 				01BA1AD414E77DC600CF9F84 /* Library */,
-				4FD7854C2684E966002BB3FA /* KeenClientInternal */,
 				017EE12314E30C96000F3868 /* KeenClient */,
 				017EE13714E30C96000F3868 /* KeenClientTests */,
 				017EE12014E30C96000F3868 /* Frameworks */,
@@ -270,6 +269,7 @@
 		017EE12314E30C96000F3868 /* KeenClient */ = {
 			isa = PBXGroup;
 			children = (
+				4FD7854C2684E966002BB3FA /* Internal */,
 				017EE12714E30C96000F3868 /* KeenClient.m */,
 				017EE12614E30C96000F3868 /* KeenClient.h */,
 				012E8A541672B9A90021F6FA /* KeenProperties.h */,
@@ -339,7 +339,7 @@
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		4FD7854C2684E966002BB3FA /* KeenClientInternal */ = {
+		4FD7854C2684E966002BB3FA /* Internal */ = {
 			isa = PBXGroup;
 			children = (
 				6B5B5C1819C98A78006BA1B3 /* MF_Base64Additions.h */,
@@ -347,7 +347,7 @@
 				01BA1B0414E895BC00CF9F84 /* KeenConstants.m */,
 				01BA1B0314E895BC00CF9F84 /* KeenConstants.h */,
 			);
-			path = KeenClientInternal;
+			path = Internal;
 			sourceTree = "<group>";
 		};
 		DE6955781951FBCC0044D2C4 /* sqlite-amalgamation */ = {
