@@ -25,7 +25,6 @@ let package = Package(
             path: ".",
             exclude: [
                 "KeenClient.xcodeproj/",
-                //"KeenClient.xcworkspace/",
                 "KeenClientExample/",
                 "KeenClientTD.podspec",
                 "KeenClientTests",
@@ -37,12 +36,6 @@ let package = Package(
                 "generate_docs.sh",
             ],
             sources: [
-                //"KeenClient/KeenClient.m",
-                //"KeenClient/KeenConstants.m",
-                //"KeenClient/KIOEventStore.m",
-                //"KeenClient/KeenProperties.m",
-                //"KeenClient/MF_Base64Additions.m",
-                //"Library/sqlite-amalgamation/keen_io_sqlite3.c",
                 "KeenClient/",
                 "KeenClientInternal/",
                 "Library/sqlite-amalgamation/",
@@ -51,7 +44,7 @@ let package = Package(
             cxxSettings: [
                 .headerSearchPath("Library/sqlite-amalgamation"),
                 .headerSearchPath("KeenClient"),
-                .headerSearchPath("KeenClient/Internal"),
+                .headerSearchPath("KeenClientInternal"),
             ]
         ),
     ],
