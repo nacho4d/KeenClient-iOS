@@ -16,7 +16,6 @@ let package = Package(
             targets: ["KeenClientTD"]),
     ],
     dependencies: [
-        //.package(name: "RealmDatabase", url: "https://github.com/realm/realm-core", .exact(Version(coreVersionStr)!))
     ],
     targets: [
       .target(
@@ -38,12 +37,15 @@ let package = Package(
                 "generate_docs.sh",
             ],
             sources: [
-                "KeenClient/KeenClient.m",
-                "KeenClient/KeenConstants.m",
-                "KeenClient/KIOEventStore.m",
-                "KeenClient/KeenProperties.m",
-                "KeenClient/MF_Base64Additions.m",
-                "Library/sqlite-amalgamation/keen_io_sqlite3.c",
+                //"KeenClient/KeenClient.m",
+                //"KeenClient/KeenConstants.m",
+                //"KeenClient/KIOEventStore.m",
+                //"KeenClient/KeenProperties.m",
+                //"KeenClient/MF_Base64Additions.m",
+                //"Library/sqlite-amalgamation/keen_io_sqlite3.c",
+                "KeenClient/",
+                "KeenClientInternal/",
+                "Library/sqlite-amalgamation/",
             ],
             publicHeadersPath: "KeenClient",
             cxxSettings: [
